@@ -26,3 +26,5 @@ Add build and start scripts in config file
 
 ##npm install
 ##npm start
+
+#npm i -S react-scroll
