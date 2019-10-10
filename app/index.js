@@ -11,7 +11,7 @@ class App extends React.Component {
       <div>
         <Popular/>
         <FanceyScroller/>
-        <Viewpager />
+        <Viewpager/>
       </div>
     )
   }
