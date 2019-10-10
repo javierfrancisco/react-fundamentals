@@ -8,7 +8,7 @@ import './styles.css'
 export default function Viewpager() {
   const [{ xy }, set] = useSpring(() => ({ xy: [0, 0] }))
   const bind = useDrag(({ down, delta }) => {
-    set({ xy: down ? delta : [0, 0] })
+    set({ xy: down ? delta : [-100, 0] })
   })
   // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
   return (
